@@ -7,10 +7,10 @@
 # since for ports changes, and the ,2 means the versioning scheme has been changed twice
 # https://www.freebsd.org/doc/en_US.ISO8859-1/books/porters-handbook/book.html#makefile-naming-revepoch
 cat << EOF
-name:          hello
-version:       0.7.0_LOCALBUILD
+name:          unix
+version:       10.0.Beta
 origin:        helloSystem
-comment:       Package that installs hello core components
+comment:       Package that installs hello and MRUnix core components
 arch:          freebsd:12:x86:64
 www:           n/a
 maintainer:    n/a
@@ -19,6 +19,6 @@ licenselogic:  single
 licenses:      [BSD]
 flatsize:      ${DIR_SIZE}
 desc:          Package that installs hello core components
-categories:    [hello]
+categories:    [unix]
 deps:          { }
 EOF
