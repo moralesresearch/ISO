@@ -195,3 +195,4 @@ dvd+rw-tools
 # Needed for QR code when Xorg cannot be started up
 libqrencode
 zip
+firfox
