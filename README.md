@@ -1,21 +1,8 @@
-# hello Live ISO builder [![Build Status](https://api.cirrus-ci.com/github/helloSystem/ISO.svg)](https://cirrus-ci.com/github/helloSystem/ISO)
-
+# Morales Research Unix X Live ISO builder [![Build Status](https://api.cirrus-ci.com/github/helloSystem/ISO.svg)](https://cirrus-ci.com/github/helloSystem/ISO)
+based on helloSystem (credit to them!)
 ## Release
 
-The latest release build r0.6.0 can be downloaded [here](../../releases/tag/r0.6.0).
-
-## Continuous builds
-
-Continuous builds can be downloaded [here](../../releases/). __CAUTION:__ These are meant for development only. Use at your own risk. Do not use in production environments.
-
-To minimize the amount of data when going from build to build, `.zsync` files are also provided. [More information](https://askubuntu.com/questions/54241/how-do-i-update-an-iso-with-zsync)
-
-It is possible to directly download and write straight to a USB stick in one go. __Caution:__ This will OVERWRITE the entire contents of the USB stick.
-
-```
-root@FreeBSD:/ # umount /dev/daX*
-root@FreeBSD:/ # curl -L "https://github.com/probonopd/furybsd-livecd/releases/download/continuous/...iso" | dd of=/dev/daX bs=4m
-```
+The latest release build 10.0 (beta) can be downloaded [here](../../releases/tag/r0.6.0).
 
 ## System Requirements for live media
 
