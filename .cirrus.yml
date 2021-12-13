@@ -10,7 +10,7 @@ task:
 
   env:
     CIRRUS_CLONE_DEPTH: 1
-    GITHUB_TOKEN: ${{ github.token }}
+    GITHUB_TOKEN: ENCRYPTED[!03be1ad022b72197e7ffdfa97e9d262410ceddff8ab40a1ba4abb7236db5d1f77b7385caa1fe545c772e7b8005467314!]
     
   auto_cancellation: false
   stateful: false
