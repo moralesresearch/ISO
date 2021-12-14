@@ -478,7 +478,7 @@ chroot ${uzip} pkg remove -y python310 python39 python37 python36 python27
 if [ -n  "${CIRRUS_CHANGE_IN_REPO}" ] ; then
   SHA=$(echo "${CIRRUS_CHANGE_IN_REPO}" | head -c 7)
   cat >> "${uzip}/etc/os-release" << '  eof'
-  VARIANT=\"helloSystem\"
+  VARIANT=\"UNIX\"
   VARIANT_ID=\"hellosystem\"
   IMAGE_ID=\"iso\"
   IMAGE_VERSION="\${BUILDNUMBER}_"${SHA}\"
