@@ -1,5 +1,7 @@
 # Graphical login manager for X11
 slim
+# Zenity
+zenity
 # Required for hello QtPlugin and Menu
 kf5-kdbusaddons
 libdbusmenu-qt5
