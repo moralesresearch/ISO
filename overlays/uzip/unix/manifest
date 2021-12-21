@@ -9,7 +9,7 @@
 cat << EOF
 name:          unix
 version:       10.0.Beta
-origin:        helloSystem
+origin:        OpenBSD
 comment:       Package that installs hello and MRUnix core components
 arch:          freebsd:12:x86:64
 www:           n/a
