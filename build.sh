@@ -95,7 +95,7 @@ else
 fi
 
 # For helloSystem, we are using a different naming scheme for the ISOS
-if [ "${desktop}" = "MRUNIX" ] ; then
+if [ "${desktop}" = "unix" ] ; then
   if [ -f overlays/uzip/unix/manifest ] ; then
     HELLO_VERSION=$(grep "^version:" overlays/uzip/unix/manifest | xargs | cut -d " " -f 2 | cut -d "_" -f 1)
     # If we are building hello, then set version number of the 'hello' transient package
