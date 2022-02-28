@@ -8,7 +8,7 @@
 # https://www.freebsd.org/doc/en_US.ISO8859-1/books/porters-handbook/book.html#makefile-naming-revepoch
 cat << EOF
 name:          unix
-version:       10.0.Beta
+version:       10.0
 origin:        OpenBSD
 comment:       Package that installs hello and MRUnix core components
 arch:          freebsd:12:x86:64
@@ -18,7 +18,7 @@ prefix:        /
 licenselogic:  single
 licenses:      [BSD]
 flatsize:      ${DIR_SIZE}
-desc:          Package that installs hello core components
+desc:          Package that installs Unix and MacOS core components
 categories:    [unix]
 deps:          { }
 EOF
