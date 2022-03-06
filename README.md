@@ -4,6 +4,8 @@ based on helloSystem (credit to them!)
 
 The latest release build 10.0 (beta) can be downloaded [here](../../releases/tag/r0.6.0).
 
+## We have moved our codebase to [Gitlab](https://gitlab.com/morales-research-corporation/os-development/mr-unix) for further development
+
 ## System Requirements for live media
 
 * 2 GHz dual core processor
